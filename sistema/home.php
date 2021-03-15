@@ -1,3 +1,5 @@
+<?php require_once '../ferramentas/sessao.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +18,7 @@
                 <main>
                     <div class="container-fluid">
                        <!--conteudo da tela aqui!-->
-                       
+                      
                        <!--fim conteudo da tela aqui!-->
                 </main>
                 <?php include_once "rodape.php";?>

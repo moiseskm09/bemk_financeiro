@@ -1,16 +1,18 @@
 <nav class="sb-topnav navbar navbar-expand fundo-navbar">
-            <a class="navbar-brand text-white" href="home.php">Bemk Financeiro</a>
-            <button class="btn btn-light btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+    <a class="navbar-brand" href="home.php" style="color: #FFD70F;">Bemk Financeiro</a>
+            <button class="btn btn-warning btn-sm order-1 order-lg-0 menu-mobile" id="sidebarToggle" href="#"><i class="fas fa-bars text-white"></i></button>
             <!-- Navbar Search-->
 
             <!-- Navbar-->
             <ul class="navbar-nav d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="#">Perfil</a>        
+                <li class="nav-item dropdown ">
+                    <a class="nav-link link-menu dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../img/foto_perfil/foto_perfil.png" width="40" height="40" class="rounded-circle">
+        </a>
+                    <div class="dropdown-menu dropdown-menu-right fundo-dropdown " aria-labelledby="userDropdown">
+                        <a class="nav-link link-menu link-menu" href="#">Perfil</a>        
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../ferramentas/logout.php">Logout</a>
+                        <a class="nav-link  link-menu" href="../ferramentas/logout.php">Logout</a>
                     </div>
                 </li>
             </ul>
