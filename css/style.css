@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 de mar de 2021, 13:42:21
+    Author     : Moises
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100vh;
+    background-image: url("../img/5026563.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+
+        }
+ #caixa-login { 
+            width: 400px;
+            height: 400px;
+           
+        }
+.tamanhoInput { height: 45px; border-radius: 10px; font-size: 16px;}
