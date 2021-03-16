@@ -17,11 +17,11 @@ if (mysqli_num_rows($sql) > 0) {
         $_SESSION['sobrenome']=$resultado['sobrenome'];
         $_SESSION['id']=$resultado['id'];
         $id = $resultado['id'];
-	header("Location: ../sistema/home.php");
+	header("Location: ../sistema/home");
 $sql_log = mysqli_query($conexao, "INSERT INTO log_login (id_usuario, data_login, logado) VALUES ('$id', '$DATA', '1')");
         
 } else{
-	header("location: ../index.php?erro=1");
+	header("location: ../index?erro=1");
         
 
 }

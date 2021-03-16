@@ -1,5 +1,5 @@
 <nav class="sb-topnav navbar navbar-expand fundo-navbar">
-    <a class="navbar-brand" href="home.php" style="color: #FFD70F;">Bemk Financeiro</a>
+    <a class="navbar-brand" href="home" style="color: #FFD70F;">Bemk Financeiro</a>
             <button class="btn btn-warning btn-sm order-1 order-lg-0 menu-mobile" id="sidebarToggle" href="#"><i class="fas fa-bars text-white"></i></button>
             <!-- Navbar Search-->
 
@@ -12,7 +12,7 @@
                     <div class="dropdown-menu dropdown-menu-right fundo-dropdown " aria-labelledby="userDropdown">
                         <a class="nav-link link-menu link-menu" href="#">Perfil</a>        
                         <div class="dropdown-divider"></div>
-                        <a class="nav-link  link-menu" href="../ferramentas/logout.php">Logout</a>
+                        <a class="nav-link  link-menu" href="../ferramentas/logout">Logout</a>
                     </div>
                 </li>
             </ul>

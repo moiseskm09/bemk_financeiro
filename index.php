@@ -25,7 +25,7 @@
                           <h6>Infome os dados de acesso</h6>
                       </div>
                       <div class="formulario text-center">
-                          <form action="ferramentas/login.php" method="POST">
+                          <form action="ferramentas/login" method="POST">
                           <div class="input-group mb-3">
                               <input type="text" name="usuario" class="form-control tamanhoInput" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1" autocomplete="off" required>
                           </div>

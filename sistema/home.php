@@ -165,7 +165,7 @@ require_once '../ferramentas/conexao.php';
     </div>
                        <div class="row mt-5">
                            <div class="col-xl-12 col-sm-12 col-12 text-center">
-                               <img src="../img/logo_horizontal.png" width="300px">
+                               <img src="../img/logo_horizontal.png" class="imagem-principal" width="300px">
                            </div>
                        </div>
                        <!--fim conteudo da tela aqui!-->
