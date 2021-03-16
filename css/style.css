@@ -34,4 +34,26 @@ html, body {
             height: 400px;
            
         }
-.tamanhoInput { height: 45px; border-radius: 10px; font-size: 16px;}
+.tamanhoInput { height: 45px; border-radius: 10px; font-size: 16px;
+font-weight: 500;}
+
+.esqueceu-senha{
+    color:#224D62;
+    font-weight: 400;
+}
+.esqueceu-senha:hover{
+    font-weight: 700;
+    color:#224D62;
+    text-decoration: none;
+}
+
+.cadastro{
+    color:#224D62;
+    font-weight: 400;
+}
+
+.cadastro:hover{
+    font-weight: 700;
+    color:#224D62;
+    text-decoration: none;
+}

@@ -39,8 +39,8 @@
                           </form>
                           
                            <div class="apresentacao text-center text-dark">
-                               <p><a href="ferramentas/esqueciasenha.php" class="text-dark">Esqueceu a senha?</a></p>
-                               <p>Ainda não tem cadastro? <a href="#modalcadstro" class="text-dark font-weight-bold">Clique aqui</a></p>
+                               <p><a href="ferramentas/esqueciasenha.php" class="esqueceu-senha">Esqueceu a senha?</a></p>
+                               <p>Ainda não tem cadastro? <a href="#modalcadstro" class="cadastro">Clique aqui</a></p>
                       </div>
                           
                       </div>

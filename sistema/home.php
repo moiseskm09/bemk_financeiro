@@ -22,9 +22,10 @@ require_once '../ferramentas/conexao.php';
                 <main>
                     <div class="container-fluid">
                        <!--conteudo da tela aqui!-->
-                      <div class="row mt-2">
+                      <div class="row mt-3">
       <div class="col-xl-3 col-sm-6 col-12 mb-2"> 
         <div class="card ">
+            <a href="clientes" class="card-link">
           <div class="card-content">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
@@ -39,11 +40,13 @@ require_once '../ferramentas/conexao.php';
               </div>
             </div>
           </div>
+            </a>
         </div>
       </div>
       <div class="col-xl-3 col-sm-6 col-12">
         <div class="card">
           <div class="card-content">
+              <a href="faturas" class="card-link">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
                 <div class="align-self-center">
@@ -55,12 +58,14 @@ require_once '../ferramentas/conexao.php';
                 </div>
               </div>
             </div>
+              </a>
           </div>
         </div>
       </div>
       <div class="col-xl-3 col-sm-6 col-12">
         <div class="card">
           <div class="card-content">
+              <a href="contas-a-pagar" class="card-link">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
                 <div class="align-self-center">
@@ -72,12 +77,14 @@ require_once '../ferramentas/conexao.php';
                 </div>
               </div>
             </div>
+              </a>
           </div>
         </div>
       </div>
       <div class="col-xl-3 col-sm-6 col-12">
         <div class="card">
           <div class="card-content">
+              <a href="financeiro" class="card-link">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
                 <div class="align-self-center">
@@ -89,6 +96,7 @@ require_once '../ferramentas/conexao.php';
                 </div>
               </div>
             </div>
+              </a>
           </div>
         </div>
       </div>
@@ -97,6 +105,7 @@ require_once '../ferramentas/conexao.php';
       <div class="col-xl-3 col-sm-6 col-12"> 
         <div class="card">
           <div class="card-content">
+              <a href="usuarios" class="card-link">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
                 <div class="align-self-center">
@@ -108,12 +117,14 @@ require_once '../ferramentas/conexao.php';
                 </div>
               </div>
             </div>
+              </a>
           </div>
         </div>
       </div>
       <div class="col-xl-3 col-sm-6 col-12">
         <div class="card">
           <div class="card-content">
+              <a href="servicos" class="card-link">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
                 <div class="align-self-center">
@@ -125,12 +136,14 @@ require_once '../ferramentas/conexao.php';
                 </div>
               </div>
             </div>
+              </a>
           </div>
         </div>
       </div>
       <div class="col-xl-3 col-sm-6 col-12">
         <div class="card">
           <div class="card-content">
+              <a href="filiais" class="card-link">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
                 <div class="align-self-center">
@@ -142,12 +155,14 @@ require_once '../ferramentas/conexao.php';
                 </div>
               </div>
             </div>
+              </a>
           </div>
         </div>
       </div>
       <div class="col-xl-3 col-sm-6 col-12">
         <div class="card">
           <div class="card-content">
+              <a href="tipos-de-recebimento" class="card-link">
             <div class="card-body cards-dashboard">
               <div class="media d-flex">
                 <div class="align-self-center">
@@ -159,6 +174,7 @@ require_once '../ferramentas/conexao.php';
                 </div>
               </div>
             </div>
+              </a>
           </div>
         </div>
       </div>
